@@ -1,0 +1,16 @@
+# Library dependencies for python code.  You need to install these with
+# `pip install -r requirements.txt` before you can run the API server code.
+
+#### ESSENTIAL LIBRARIES FOR MAIN FUNCTIONALITY ####
+pandas==0.23.4
+fbprophet==0.4.post2
+Flask==1.0.2
+plotly==3.5.0
+scikit-learn==0.20.2
+fbprophet==0.4.post2 # posted twice to overcome an install issue
+psutil==5.5.0
+
+#### NICE-TO-HAVE LIBRARIES FOR FUTURE FUNCTIONALITY ####
+#statsmodels
+#forecast
+#numpy==1.16.0
